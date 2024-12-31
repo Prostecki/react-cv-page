@@ -13,7 +13,9 @@ export default function Skills() {
     "Docker",
     "API Integration",
     "Motion.dev",
+    "Material UI",
   ];
+
   return (
     <section className="w-60">
       <h1 className="text-3xl font-bold tracking-widest uppercase mb-3">
