@@ -63,7 +63,7 @@ export default function Experience() {
         {experience.map((item, i) => (
           <div key={i} className="flex flex-col gap-2">
             <h1 className="text-2xl my-2">{item.position}</h1>
-            <h3 className=" flex items-center relative">
+            <h3 className=" flex items-center max-sm:items-start max-sm:flex-col relative">
               <span className="font-bold">{item.company}</span>, {item.location}
             </h3>
             <h3>{item.year}</h3>
