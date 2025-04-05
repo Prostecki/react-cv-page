@@ -10,7 +10,7 @@ import React from "react";
 
 function App() {
   return (
-    <section className="my-5 border-r-2 pr-8 pl-8 border-l-2 drop-shadow-sm">
+    <section className="my-5 pr-8 pl-8 drop-shadow-sm">
       <Introduction />
       <div className="flex justify-between mt-10">
         <div className="flex flex-col gap-5">
