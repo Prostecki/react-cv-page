@@ -10,16 +10,18 @@ import React from "react";
 
 function App() {
   return (
-    <section className="my-5 pr-8 pl-8 drop-shadow-sm">
-      <Introduction />
-      <div className="flex justify-between mt-10">
-        <div className="flex flex-col gap-5">
+    <section className="w-full my-5 pr-8 pl-8 drop-shadow-sm max-md:flex-col">
+      <div>
+        <Introduction />
+      </div>
+      <div className="flex justify-between w-full gap-8 items-start mt-10 max-md:flex-col-reverse">
+        <div className="flex flex-col gap-5 max-md:flex-col">
           <Skills />
           <Education />
           <Social />
           <Languages />
         </div>
-        <div className="flex flex-col w-[60%]">
+        <div className="flex flex-col max-md:flex-col-reverse">
           <Experience />
           <hr className="h-1 bg-gray-500 my-5" />
           <Courses />

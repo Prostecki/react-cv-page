@@ -5,13 +5,13 @@ export default function Introduction() {
   return (
     <section className="flex gap-10">
       <div className="flex flex-col justify-between gap-2">
-        <h1 className="text-6xl text-start font-bold uppercase drop-shadow-lg">
+        <h1 className="text-6xl text-start font-bold uppercase drop-shadow-lg max-md:text-center max-md:text-3xl">
           Mark Taratynov
         </h1>
-        <p className="text-2xl tracking-widest uppercase">
+        <p className="text-2xl tracking-widest uppercase max-md:text-center max-md:text-xl">
           Fullstack Developer
         </p>
-        <p className="leading-8 text-lg text-gray-600">
+        <p className="leading-8 text-lg text-gray-600 max-md:text-wrap">
           My journey in tech began at 10 when I fixed my first PC, sparking a
           lifelong passion for problem-solving and development. As a former
           elite athlete, I bring perseverance, determination, and a

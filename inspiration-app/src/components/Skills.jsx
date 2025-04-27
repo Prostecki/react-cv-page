@@ -20,7 +20,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="w-60">
+    <section className="w-60 max-md:w-full">
       <h1 className="text-3xl font-bold tracking-widest uppercase mb-3">
         Skills
       </h1>

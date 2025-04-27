@@ -55,15 +55,15 @@ export default function Experience() {
     },
   ];
   return (
-    <section className="flex">
-      <div>
+    <section className="flex w-full">
+      <div className="">
         <h1 className="text-3xl font-bold tracking-widest uppercase">
           Experience
         </h1>
         {experience.map((item, i) => (
-          <div key={i} className="flex flex-col gap-2">
+          <div key={i} className="flex flex-col max-md:mb-8 gap-2">
             <h1 className="text-2xl my-2">{item.position}</h1>
-            <h3 className=" flex items-center max-sm:items-start max-sm:flex-col relative">
+            <h3 className="flex items-center max-sm:items-start relative">
               <span className="font-bold">{item.company}</span>, {item.location}
             </h3>
             <h3>{item.year}</h3>
