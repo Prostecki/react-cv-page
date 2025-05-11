@@ -15,7 +15,7 @@ export default function Social() {
         Social Network
       </h1>
       {socialLinks.map((item, i) => (
-        <h3 key={i}>
+        <h2 key={i}>
           <span className="font-bold tracking-wide">{item.name}</span>:{" "}
           <a
             className="social-link"
@@ -25,7 +25,7 @@ export default function Social() {
           >
             {item.link}
           </a>
-        </h3>
+        </h2>
       ))}
     </section>
   );

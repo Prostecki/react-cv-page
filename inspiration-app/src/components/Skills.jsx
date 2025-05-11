@@ -24,9 +24,9 @@ export default function Skills() {
       <h1 className="text-3xl font-bold tracking-widest uppercase mb-3">
         Skills
       </h1>
-      <ul className="ml-5 w-max">
+      <ul className="">
         {skills.map((skill, i) => (
-          <li className="list-disc" key={i}>
+          <li className="list-none pl-0" key={i}>
             {skill}
           </li>
         ))}

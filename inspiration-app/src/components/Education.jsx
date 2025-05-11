@@ -13,7 +13,7 @@ export default function Education() {
           <br />
           Stockholm, Sweden 2024 - 2026
           <br />
-          2024 - 2026
+          2024 - Present
         </p>
       </div>
       <div className="">

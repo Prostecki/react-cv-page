@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <section className="flex max-md:flex-col-reverse max-md:items-center md:gap-10">
       <div className="flex flex-col justify-between gap-2">
-        <h1 className="text-6xl text-start font-bold uppercase drop-shadow-lg max-md:text-center max-md:text-3xl">
+        <h1 className="text-6xl text-start font-bold uppercase drop-shadow-lg max-md:text-center max-md:text-2xl">
           Mark Taratynov
         </h1>
         <p className="text-2xl tracking-widest uppercase max-md:text-center max-md:text-xl">

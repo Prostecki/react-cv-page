@@ -12,7 +12,7 @@ export default function Courses() {
     },
   ];
   return (
-    <section className="flex flex-col gap-5">
+    <section className="flex flex-col items-start gap-5">
       <h1 className="text-2xl font-bold uppercase tracking-widest">
         Courses / Certifications
       </h1>
