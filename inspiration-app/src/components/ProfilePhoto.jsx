@@ -4,8 +4,10 @@ export default function ProfilePhoto() {
     <div className="">
       <img
         src={profilePhoto}
-        className="w-full h-auto border border-gray-200 rounded-md object-cover"
+        className="border border-gray-200 rounded-md object-cover max-md:w-[15rem] mb-5"
         alt="Profile Photo"
+        width={500}
+        height={500}
       />
     </div>
   );

@@ -3,7 +3,7 @@ import Contacts from "./Contacts";
 
 export default function Introduction() {
   return (
-    <section className="flex gap-10">
+    <section className="flex max-md:flex-col-reverse max-md:items-center md:gap-10">
       <div className="flex flex-col justify-between gap-2">
         <h1 className="text-6xl text-start font-bold uppercase drop-shadow-lg max-md:text-center max-md:text-3xl">
           Mark Taratynov
@@ -23,7 +23,9 @@ export default function Introduction() {
           My core principle: <span className="font-extrabold">patience</span>{" "}
           and <span className="font-extrabold">effort</span> drive progress.
         </p>
-        <Contacts />
+        <div>
+          <Contacts />
+        </div>
       </div>
       <ProfilePhoto />
     </section>

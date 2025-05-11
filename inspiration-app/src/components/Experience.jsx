@@ -1,5 +1,3 @@
-import { TbPointFilled } from "react-icons/tb";
-
 export default function Experience() {
   const experience = [
     {
@@ -55,8 +53,8 @@ export default function Experience() {
     },
   ];
   return (
-    <section className="flex w-full">
-      <div className="">
+    <section className="flex max-md:w-[30rem] max-md:flex-col">
+      <div className="w-full">
         <h1 className="text-3xl font-bold tracking-widest uppercase">
           Experience
         </h1>
