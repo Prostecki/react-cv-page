@@ -12,7 +12,7 @@ function App() {
   return (
     <section className="md:max-w-[1200px] m-auto my-5 drop-shadow-sm max-md:flex-col">
       <Introduction />
-      <div className="flex flex-row-reverse justify-between w-full gap-8 items-start mt-10 max-md:flex-col max-md:gap-3 max-md:items-center">
+      <div className="flex flex-row-reverse justify-between w-full gap-8 items-start mt-10 max-md:flex-col max-md:gap-3 max-md:items-start">
         <div className="flex w-full flex-col max-md:items-start max-md:w-auto">
           <Experience />
           <hr className="h-0.5 bg-gray-300 my-5 max-md:my-2 max-md:w-full" />
@@ -28,6 +28,5 @@ function App() {
     </section>
   );
 }
-
 
 export default App;
